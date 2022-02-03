@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#quote {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px;
+    line-height: 35px;
+    max-width: 728px;
+    text-align: justify;
+}
+
+#message {
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+#quote span {
+    transition: all 0.1s linear;
+}
+
+#typed-value {
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    width: 160px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#start {
+    padding: 4px 6px;
+    margin-top: 8px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.error {
+    background-color: lightcoral;
+    border: red;
+}
+
+.score-board {
+    margin-top: 12px;
+}
+
+.score-board table {
+    text-align: center;
+}
+
+.score-board table th {
+    padding: 0 64px;
+}
